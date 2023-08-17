@@ -1,0 +1,94 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: Arial;
+	font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+li a:hover {
+  background-color: #111;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){
+	background-color: white;
+	color: black;
+}
+
+th {
+  background-color: gray;
+  color: white;
+}
+
+input[type=text] {
+  background-color: black;
+  border: 2px solid gray;
+  color: white;
+  font-family: Arial;
+  font-size: 18px;
+  width: 10%;
+  margin-right: 20px;
+}
+
+input[type=submit] {
+  background-color: white;
+  border: 2px solid gray;
+  color: black;
+  font-family: Arial;
+  font-size: 18px;
+  width: 5%;
+}
+
+select {
+	border: none;
+	padding: 0 1em 0 0;
+	margin: 0;
+	font-family: inherit;
+	font-size: inherit;
+	cursor: inherit;
+	line-height: inherit;
+	margin-right: 20px;
+	background-color: black;
+	color: white;
+	border: 2px solid gray;
+	width: 10%;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
